@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%); 
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 460px;
+    width: 420px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div1{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.imagebackground {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    
+}
+
+.victor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.victor-photo {
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 5px solid white;
+}
+
+.person-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(229, 23%, 23%);
+}
+
+span{
+    font-weight: 400;
+    margin-left: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+    margin-top: -30px;
+}
+
+.followers{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.followers-bottom {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-top: -30px;
+}
+
+.likes {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.likes-bottom {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-top: -30px;
+}
+
+.photos {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.photos-bottom {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-top: -30px;
+}
